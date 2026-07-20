@@ -1,19 +1,7 @@
-"""
-Nokia-style phone menu simulator
-Converted from Java to Python using `match / case` (Python 3.10+)
-
-Notes on the conversion:
-- Java's `switch (x) { case 1: ... break; }` becomes Python's
-  `match x: case 1: ...`
-- Python's `match/case` does NOT fall through like Java's switch does,
-  so no `break` statements are needed at all -- each `case` block runs
-  and then automatically stops, exactly like Java's `case N: ... break;`.
-- `_` is Python's "match anything" pattern, used the same way Java uses
-  `default:`.
-- `scanner.nextInt()` becomes `int(input())`.
-"""
 
 main_menu = """
+WELCOME TO NOKIA
+
 1. Phone book
 2. Messages
 3. Chat
